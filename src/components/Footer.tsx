@@ -19,16 +19,24 @@ const Footer = () => {
       <div className="relative z-10 px-6 py-20 text-center max-w-md text-[#fffff] font-serif">
 
         {/* TOP LINE */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="text-sm leading-relaxed mb-12"
-        >
-          Our families are excited that you are able to join us in celebrating
-          what we hope will be one of the happiest days of our lives.
-        </motion.p>
+        <div className="mt-16 mb-12 text-center">
+  <p className="font-serif text-base leading-relaxed text-[#8B5A2B] max-w-sm mx-auto">
+    With great joy and warmth, I request your gracious presence
+    to join us in celebrating the wedding of my beloved granddaughter.
+    <br /><br />
+    Your presence will add to the happiness of our family
+    and make this auspicious occasion truly memorable.
+  </p>
+
+  <div className="mt-6">
+    <p className="font-serif text-lg text-[#8B5A2B]">
+      — Shri Mahesh Chand Sharma
+    </p>
+    <p className="font-sans text-xs text-muted-foreground mt-1">
+      (Maternal GrandFather)
+    </p>
+  </div>
+</div>
 
         {/* LINKS */}
         <motion.h3

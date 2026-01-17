@@ -16,6 +16,7 @@ import ElderlySection from "@/components/ElderlySection";
 import ThingsToKnow from "@/components/ThingsToKnow";
 import MeetBrideGroom from "@/components/MeetTheBrideGroom";
 import RSVPSection from "@/components/RSVPSection";
+// import BlessingsSection from "@/components/BlessingSections";
 
 const Index = () => {
   const [isEnvelopeOpen, setIsEnvelopeOpen] = useState(false);
@@ -48,6 +49,7 @@ const Index = () => {
           {/* <TimelineSection /> */}
           {/* <AccommodationSection /> */}
           <MeetBrideGroom/>
+          {/* <BlessingsSection/> */}
           <ThingsToKnow/>
           <RSVPSection/>
           <Footer />
