@@ -21,9 +21,11 @@ type EventItem = {
   title: string;
   time: string;
   venue: string;
+  introLines?: string[];   // 👈 NEW
   description: string;
   image: string;
 };
+
 
 export default function InlineEventsTimeline() {
   const { language } = useLanguage();
@@ -37,10 +39,19 @@ export default function InlineEventsTimeline() {
     time: "1:00 PM onwards",
     venue: "Madhuvan Resort",
     image: mehndiImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "An afternoon of laughter, patterns, and whispered wishes.",
+        ],
     description:
       language === "hi"
         ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
-        : "Traditional mehndi ceremony with family and friends.",
+        : "Here, love lingers. Hands are adorned, stories are traced in ink, and every curve carries a quiet promise of what’s to come, and what will remain.",
         
   },
   {
@@ -50,10 +61,19 @@ export default function InlineEventsTimeline() {
     time: "6:00 PM onwards",
     venue: "Community Hall",
     image: KirtanImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "Kirtan - A serene evening of devotional music, prayer, and togetherness.",
+        ],
     description:
       language === "hi"
         ? "भजन और कीर्तन के साथ आध्यात्मिक संध्या।"
-        : "An evening of devotional songs and kirtan.",
+        : "The journey begins in stillness. With folded hands, shared melodies, and hearts offered quietly. A moment to pause, to ground, to seek blessings before everything else unfolds.",
   },
   {
     id: "haldi",
@@ -62,23 +82,47 @@ export default function InlineEventsTimeline() {
     time: "11:00 AM",
     venue: "Pool Area",
     image: HaldiImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "A sun-kissed morning of rituals, smiles, and golden blessings.",
+        ],
     description:
       language === "hi"
         ? "हल्दी की रस्म खुशियों और आशीर्वाद के साथ।"
-        : "Haldi ceremony filled with joy and blessings.",
+        : "Laughter spills easily here.Turmeric stains hands, cheeks, memories.Blessings are whispered, joy is effortless, and love shows itself in the smallest gestures.",
   },
-  {
+
+{
     id: "sangeet",
     date: t.day28,
     title: t.sangeet,
     time: "7:00 PM onwards",
     venue: "Banquet Hall",
     image: SangeetImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "An evening where music, movement, and memories come alive.",
+        ],
     description:
       language === "hi"
         ? "संगीत, नृत्य और पारिवारिक उत्सव।"
-        : "Music, dance, and celebration with loved ones.",
+        : "The first beat lands softly. Then voices rise, feet follow, and joy takes over until the night knows only celebration.",
   },
+
+
+
+
+
   {
     id: "chaak",
     date: t.day29,
@@ -86,11 +130,21 @@ export default function InlineEventsTimeline() {
     time: "9:00 AM",
     venue: "Bride’s Residence",
     image: MayraImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "A heartfelt family ritual of love, blessings, and welcome.",
+        ],
     description:
       language === "hi"
         ? "चाक भात – पारिवारिक परंपरा।"
-        : "Chaak Bhat – a sacred family ritual.",
+        : "Rituals unfold slowly. What is given is recieved with grace. A moment held quielty within generations of love.",
   },
+
   {
     id: "wedding",
     date: t.day29,
@@ -98,13 +152,21 @@ export default function InlineEventsTimeline() {
     time: "7:00 PM",
     venue: "Wedding Venue",
     image: ShaadiImg,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "Where two journeys meet, and a lifetime begins. ",
+        ],
     description:
       language === "hi"
         ? "विवाह समारोह – दो आत्माओं का पवित्र मिलन।"
-        : "Wedding ceremony – the sacred union of two souls.",
+        : "As evening settles, so does certainty. Promises are made not loudly, but deeply. In the presence of family, faith, and love, two souls step forward together.",
   },
 ];
-
   const [activeId, setActiveId] = useState<string | null>(null);
 
   return (
@@ -184,6 +246,14 @@ export default function InlineEventsTimeline() {
     <span className="text-[#a89f94]">📍</span>
     <span>{event.venue}</span>
   </div>
+  {/* Italic intro lines */}
+{event.introLines && (
+  <div className="space-y-1 italic text-[#7a7268]">
+    {event.introLines.map((line, index) => (
+      <p key={index}>{line}</p>
+    ))}
+  </div>
+)}
 
   {/* Description */}
   <p className="pt-2 leading-relaxed">

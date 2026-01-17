@@ -50,7 +50,7 @@ const DetailsSection = () => {
 
           {/* Address */}
           <p className="font-sans text-muted-foreground mb-8">
-            Sikker Road
+            Siker Road,
             <br />
             Jaipur, Rajasthan
           </p>
