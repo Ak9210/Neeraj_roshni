@@ -30,7 +30,7 @@ const Footer = () => {
 
   <div className="mt-6">
     <p className="font-serif text-lg text-[#8B5A2B]">
-      — Shri Mahesh Chand Sharma
+      — Shri Mahesh Kumar Sharma
     </p>
     <p className="font-sans text-xs text-muted-foreground mt-1">
       (Maternal GrandFather)

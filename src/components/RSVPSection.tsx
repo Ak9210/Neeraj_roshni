@@ -41,7 +41,7 @@ const RSVPSection = () => {
     className="block"
   >
     <p className="font-serif text-lg text-[#8B5A2B]">
-      Shri Mahesh Chand Sharma 
+      Shri Mahesh Kumar Sharma 
     </p>
     <p className="font-sans text-sm text-muted-foreground underline">
       +91 8949449907
