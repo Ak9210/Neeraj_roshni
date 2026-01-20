@@ -173,7 +173,7 @@ export default function InlineEventsTimeline() {
   },
   {
     id: "Lagan Tika",
-    date: t.day27,
+    date: t.day28,
     title: t.LaganTika,
     time: "04:00 PM onwards",
     venue: "Madhuvan Resort",
