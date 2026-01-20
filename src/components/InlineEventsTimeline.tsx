@@ -8,6 +8,13 @@ import ShaadiImg from "../assets/shaadi.jpg";
 import SangeetImg from "../assets/Sangeet.jpeg"
 import KirtanImg from "../assets/kirtan.jpeg"
 import MayraImg from "../assets/mayra.jpg"
+import GaneshNim from "../assets/ganeshnimrantan.jpeg";
+import Sikendi from "../assets/sikendivinayak.jpg"
+import birabhaahth from "../assets/birabhaath.jpg"
+import Bmhendi from "../assets/Mhendi.jpg"
+import LaganTika from "../assets/laganTika.jpg"
+
+import nikasi from "../assets/nikasi.jpg"
 // import kirtanImg from "../assets/events/kirtan.jpg";
 // import haldiImg from "../assets/events/haldi.jpg";
 // import sangeetImg from "../assets/events/sangeet.jpg";
@@ -32,13 +39,13 @@ export default function InlineEventsTimeline() {
   const t = translations[language];
 
   const events: EventItem[] = [
-  {
-    id: "mehndi",
-    date: t.day27,
-    title: t.mehndi,
-    time: "1:00 PM onwards",
-    venue: "Madhuvan Resort",
-    image: mehndiImg,
+    {
+    id: "Ganesh Nimantran",
+    date: t.day21,
+    title: t.GaneshNimrantan,
+    time: "11:45 AM onwards",
+    venue: "Goyal House",
+    image: GaneshNim,
     introLines: 
     language === "hi"
       ? [
@@ -46,14 +53,82 @@ export default function InlineEventsTimeline() {
           "हर रंग में छुपा एक सपना।",
         ]
       : [
-          "An afternoon of laughter, patterns, and whispered wishes.",
+          "With folded hands and grateful hearts, we begin.",
         ],
     description:
       language === "hi"
         ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
-        : "Here, love lingers. Hands are adorned, stories are traced in ink, and every curve carries a quiet promise of what’s to come, and what will remain.",
+        : "From the groom’s family, this is our first prayer — an invocation of Lord Ganesha to bless the days ahead. May every step be guided, every ritual be fulfilled, and every beginning unfold with grace.",
         
   },
+
+  {
+    id: "Sankdi Vinayak",
+    date: t.day25,
+    title: t.SankdiVinayak,
+    time: "11:15 AM onwards",
+    venue: "Goyal House",
+    image: Sikendi,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "Seeking blessings before the journey unfolds.",
+        ],
+    description:
+      language === "hi"
+        ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
+        : "A sacred moment from the groom’s side, offering prayers to Sankdi Vinayak. With devotion and humility, we ask for wisdom, harmony, and divine protection as two families prepare to unite.",
+        
+  },
+  {
+    id: "Bira-Bhaath",
+    date: t.day27,
+    title: t.BiraBhaath,
+    time: "1:00 PM onwards",
+    venue: "Madhuvan Resort",
+    image: birabhaahth,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "A bond strengthened through tradition and shared meals.”",
+        ],
+    description:
+      language === "hi"
+        ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
+        : "From the groom’s family, Bira-Bhaath is a celebration of respect, responsibility, and togetherness. A ritual that honors relationships and deepens the ties that now connect two homes.",
+        
+  },
+  {
+    id: "mehndi",
+    date: t.day27,
+    title: t.mehndi,
+    time: "1:00 PM onwards",
+    venue: "Madhuvan Resort",
+    image: Bmhendi,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "Joy gathers, laughter flows, and celebrations begin.”",
+        ],
+    description:
+      language === "hi"
+        ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
+        : "Hosted with warmth from the groom’s side, this afternoon is filled with color, smiles, and light-hearted moments. As hands are adorned, hearts grow closer, marking the joyful rhythm of the days ahead.",
+        
+  },
+  
   {
     id: "kirtan",
     date: t.day27,
@@ -96,6 +171,28 @@ export default function InlineEventsTimeline() {
         ? "हल्दी की रस्म खुशियों और आशीर्वाद के साथ।"
         : "Laughter spills easily here.Turmeric stains hands, cheeks, memories.Blessings are whispered, joy is effortless, and love shows itself in the smallest gestures.",
   },
+  {
+    id: "Lagan Tika",
+    date: t.day27,
+    title: t.LaganTika,
+    time: "04:00 PM onwards",
+    venue: "Madhuvan Resort",
+    image: LaganTika,
+    introLines: 
+    language === "hi"
+      ? [
+          "हाथों में रचती खुशियों की कहानी,",
+          "हर रंग में छुपा एक सपना।",
+        ]
+      : [
+          "A promise acknowledged, a bond affirmed.",
+        ],
+    description:
+      language === "hi"
+        ? "परंपरागत मेहंदी समारोह परिवार और मित्रों के साथ।"
+        : "A meaningful ceremony marking the formal recognition of the union, carried out with tradition, respect, and shared faith.",
+        
+  },
 
 {
     id: "sangeet",
@@ -124,12 +221,12 @@ export default function InlineEventsTimeline() {
 
 
   {
-    id: "chaak",
+    id: "Nikasi",
     date: t.day29,
-    title: t.chaak,
-    time: "9:00 AM",
+    title: t.Nikasi,
+    time: "5:00 PM",
     venue: "Madhuvan Resort",
-    image: MayraImg,
+    image: nikasi,
     introLines: 
     language === "hi"
       ? [
@@ -137,12 +234,12 @@ export default function InlineEventsTimeline() {
           "हर रंग में छुपा एक सपना।",
         ]
       : [
-          "A heartfelt family ritual of love, blessings, and welcome.",
+          "A moment held gently in tradition.",
         ],
     description:
       language === "hi"
         ? "चाक भात – पारिवारिक परंपरा।"
-        : "Rituals unfold slowly. What is given is recieved with grace. A moment held quielty within generations of love.",
+        : "Rituals unfold with emotion and grace, honoring transition, blessings, and the continuity of love across generations.",
   },
 
   {

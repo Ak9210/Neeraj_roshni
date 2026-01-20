@@ -11,10 +11,20 @@ export const translations = {
 eventsSubtitle: "Join us in celebrating these special moments",
 eventsTap:"Tap for more information",
 
+
+
+day25: "25 January",
+day21: "21 January",
 day27: "27 January",
 day28: "28 January",
 day29: "29 January",
 
+
+SankdiVinayak: "Sankdi Vinayak",
+Nikasi: "Nikasi",
+LaganTika: "Lagan Tika",
+GaneshNimrantan: "Ganesh Nimantran",
+BiraBhaath: "Bira Bhaath",
 mehndi: "Mehndi",
 kirtan: "Kirtan",
 haldi: "Haldi",
@@ -34,10 +44,20 @@ wedding: "Wedding Ceremony",
 eventsSubtitle: "इन खास पलों में हमारे साथ शामिल हों",
 eventsTap: "अधिक जानकारी के लिए टैप करें",
 
+
+
+day25: "25 जनवरी",
+day21: "21 जनवरी",
 day27: "27 जनवरी",
 day28: "28 जनवरी",
 day29: "29 जनवरी",
 
+
+SankdiVinayak: "Sankdi Vinayak",
+Nikasi: "Nikasi",
+LaganTika: "Lagan Tika",
+GaneshNimrantan: "Ganesh Nimantran",
+BiraBhaath: "Bira Bhaath",
 mehndi: "मेहंदी",
 kirtan: "कीर्तन",
 haldi: "हल्दी",

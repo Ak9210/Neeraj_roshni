@@ -35,49 +35,35 @@ const RSVPSection = () => {
 
   {/* CONTACT 1 */}
   <a
-    href="https://wa.me/919829245590?text=We%20are%20happy%20to%20confirm%20that%20we%20will%20be%20attending%20the%20wedding.%20Looking%20forward%20to%20celebrating%20together!"
+    href="https://wa.me/919928996996?text=We%20are%20happy%20to%20confirm%20that%20we%20will%20be%20attending%20the%20wedding.%20Looking%20forward%20to%20celebrating%20together!"
     target="_blank"
     rel="noopener noreferrer"
     className="block"
   >
     <p className="font-serif text-lg text-[#8B5A2B]">
-      Shri Mahesh Kumar Sharma 
+       Mahesh Ji Agarwal 
     </p>
     <p className="font-sans text-sm text-muted-foreground underline">
-      +91 8949449907
+      +91 9928996996
     </p>
   </a>
 
   {/* CONTACT 2 */}
   <a
-    href="https://wa.me/918094593034?text=We%20will%20be%20attending%20the%20wedding.%20Please%20let%20us%20know%20if%20any%20details%20are%20required%20from%20our%20side."
+    href="https://wa.me/917737047179?text=We%20will%20be%20attending%20the%20wedding.%20Please%20let%20us%20know%20if%20any%20details%20are%20required%20from%20our%20side."
     target="_blank"
     rel="noopener noreferrer"
     className="block"
   >
     <p className="font-serif text-lg text-[#8B5A2B]">
-      Jatin Verma 
+      Mohit Agarwal 
     </p>
     <p className="font-sans text-sm text-muted-foreground underline">
-      +91 8094593034
+      +91 7737047179
     </p>
   </a>
   
 
-  {/* CONTACT 3 */}
-  <a
-    href="https://wa.me/919829245590?text=We%20are%20pleased%20to%20confirm%20our%20presence%20at%20the%20wedding.%20Thank%20you%20for%20the%20invitation!"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block"
-  >
-    <p className="font-serif text-lg text-[#8B5A2B]">
-      Akshat Sharma 
-    </p>
-    <p className="font-sans text-sm text-muted-foreground underline">
-      +91 9829245590
-    </p>
-  </a>
   
 
 </div>

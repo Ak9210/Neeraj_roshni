@@ -79,11 +79,11 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-6"
         >
-          <span className="block">Roshni</span>
+          <span className="block">Neeraj</span>
           <span className="text-3xl md:text-4xl lg:text-5xl italic font-normal opacity-80">
             Weds
           </span>
-          <span className="block">Neeraj</span>
+          <span className="block">Roshni</span>
         </motion.h1>
 
         <motion.div

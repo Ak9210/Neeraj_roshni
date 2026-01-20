@@ -21,18 +21,18 @@ const ElderlySection = () => {
       >
         {/* BLESSINGS INTRO */}
         <p className="font-sans text-sm text-muted-foreground mb-4">
-          With the blessings of
+          With the heavenly blessings of
         </p>
 
         {/* GRANDPARENTS */}
         <p className="font-serif text-base text-primary leading-relaxed mb-10">
-          Smt. Snehlata Devi <br />
-          and Late. Devendra Kumar Sharma
+          Smt. Kalawati Devi <br />
+          and Ramswaroop Ji Goyal
         </p>
 
         {/* MORE SPACE HERE (as requested) */}
         <p className="font-serif text-base text-primary leading-relaxed mb-16">
-          Mrs. Rekha & Mr. Jitendra Kumar Sharma
+          Mrs. Indu & Mr. Mahesh Kumar Agarwal
         </p>
 
         {/* SOFT DIVIDER */}
@@ -55,7 +55,7 @@ const ElderlySection = () => {
 
         {/* COUPLE — SAME FEEL AS HERO */}
         <h1 className="font-serif text-5xl md:text-7xl text-gold mb-2">
-          Roshni
+          Neeraj
         </h1>
 
         <p className="text-3xl italic font-serif opacity-80 mb-2">
@@ -63,16 +63,16 @@ const ElderlySection = () => {
         </p>
 
         <h1 className="font-serif text-5xl md:text-7xl text-gold mb-14">
-          Neeraj
+          Roshni
         </h1>
 
         {/* PARENTS */}
         <p className="font-sans text-sm text-muted-foreground mb-3">
-          Son of
+          Daughter of
         </p>
 
         <p className="font-serif text-base text-primary leading-relaxed">
-          Mrs. Indu & Mr. Mahesh Kumar Agarwal
+          Mrs. Rekha & Mr. Jitendra Kumar Sharma
         </p>
       </motion.div>
     </section>

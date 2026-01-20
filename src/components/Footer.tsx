@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="relative z-10 px-6 py-20 text-center max-w-md text-[#fffff] font-serif">
 
         {/* TOP LINE */}
-        <div className="mt-16 mb-12 text-center">
+        {/* <div className="mt-16 mb-12 text-center">
   <p className="font-serif text-base leading-relaxed text-[#8B5A2B] max-w-sm mx-auto">
     With great joy and warmth, I request your gracious presence
     to join us in celebrating the wedding of my beloved granddaughter.
@@ -36,7 +36,7 @@ const Footer = () => {
       (Maternal GrandFather)
     </p>
   </div>
-</div>
+</div> */}
 
         {/* LINKS */}
         <motion.h3
